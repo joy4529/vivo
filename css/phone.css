@@ -1,0 +1,76 @@
+.header>.header-top{
+    display: none;
+}
+.header>.header-bottom{
+    display: none;
+}
+.header-phone{
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    height: 100px;
+    line-height: 100px;
+}
+.header-phone a{
+    font-size: 40px;
+}
+.header-phone h1 a{
+    font-size: 80px;
+}
+.main{
+    margin-top: 0;
+}
+.main>.main-top>div{
+    display: none;
+}
+/*
+内容开始
+*/
+.main>.main-top li:nth-child(1){
+    display: none;
+}
+.main>.main-top li:nth-child(2){
+    display: block;
+}
+.main>.main-top>ol{
+    display: none;
+}
+.main>.main-bottom>div{
+    width: 100%;
+}
+/*内容结束*/
+.footer-in>.footer-top>.footer-top-left{
+    float: none;
+}
+.footer-in>.footer-top>.footer-top-right{
+    float: none;
+}
+.footer-top>.footer-top-left dd{
+    display: none;
+}
+.footer-in>.footer-top>.footer-top-left{
+    width: 100%;
+    flex-direction: column;
+}
+.footer-top>.footer-top-left dt{
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.footer-top>.footer-top-left dt::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    float: right;
+    background: url('../images/add.png') no-repeat center;
+
+}
+.footer-in>.footer-top>.footer-top-right{
+    width: 100%;
+}
+
+.footer-in>.footer-top{
+    width: 100%;
+    display: block;
+
+}
